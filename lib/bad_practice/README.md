@@ -137,12 +137,13 @@ Let's revise our solution by becoming a bit functional.
 
 > Oh crap another functional guy!" - But don't worry, not as much functional :)
 
-My idea of the solution is as follows: What if I have a cars array and I could run any kind of transformation function 
-on it in order to get an updated cars array. I could have a little utility library with all the transformation 
-functions I will ever need and I can slowly create more, when the need will arise. Let's be SOLID, DRY, let's follow 
-SRP and YAGNI. 
+<b>My idea of the solution is as follows:</b>
 
-> Yes design patterns are an important knowledge of every seasoned developer :)
+What if I have a cars array and I could run any kind of transformation function on it in order to get an updated cars 
+array? I could have a little utility library with all the transformation functions I will ever need and 
+I can slowly create more, when the need arises. Let's be SOLID, DRY, let's follow SRP and YAGNI.
+
+> Yes, design patterns are an important knowledge of every seasoned developer :)
 
 
 But back to the code:
@@ -157,7 +158,7 @@ We have done a few things here:
 2. we shifted the responsibility of the actual transformation to an external function
 3. we used a function expression to make the code more clean and readable
 
-Even without flow or documentation, it is quiet easy to understand what the function does and the next steps became 
+Even without flow or documentation, it is quite easy to understand what the function does and the next steps become 
 very evident.
 
 <b>Time to create our transformation function and explain our reasoning behind.</b> 
