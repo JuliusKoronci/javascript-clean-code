@@ -1,7 +1,7 @@
 # The nested evil for loop
 
 In this article we will have a look at a practical example, I came across on stackoverflow. It is a real world example
-which looks perfectly fine but doesn't meet a few of our requirements for "Good quality code". Lets have a look at the 
+which looks perfectly fine but doesn't meet a few of our requirements for "Good quality code". Let's have a look at the 
 code:
 
 ``` 
@@ -40,7 +40,7 @@ for (let c = 0; c < cars.length; c++) {
 }
 ```
 
-So whats wrong with this code? Lets see first the violations:
+So whats wrong with this code? Let's see first the violations:
 
 1. Maximum 1 level of nesting
 2. Avoid the use of the <b>let</b> keyword
@@ -135,11 +135,11 @@ is this function reusable and clean enough? Is this thinking premature optimisat
 
 Let's revise our solution by becoming a bit functional. 
 
-> Oh crap another functional guy, but don't worry not as much functional :)
+> Oh crap another functional guy!" - But don't worry, not as much functional :)
 
 My idea of the solution is as follows: What if I have a cars array and I could run any kind of transformation function 
 on it in order to get an updated cars array. I could have a little utility library with all the transformation 
-functions I will ever need and I can slowly create more, when the need will arise. Lets be SOLID, DRY, let's follow 
+functions I will ever need and I can slowly create more, when the need will arise. Let's be SOLID, DRY, let's follow 
 SRP and YAGNI. 
 
 > Yes design patterns are an important knowledge of every seasoned developer :)
@@ -187,7 +187,7 @@ reuse the existing functions.
 
 > YAGNI - You aren't gonna need it
 
-Lets return back to our intents here for a second. We to be able to prepend or append any kind of text and that should 
+Let's return back to our intents here for a second. We to be able to prepend or append any kind of text and that should 
 do for now. Since we have broken down our initial solution to small reusable and replaceable functions, we can very 
 easily create a different solution, if the need arises and just refactor and replace what we have so far without worrying 
 much about breaking the code.
