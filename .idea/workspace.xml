@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="17c0f080-f4ac-4af2-a307-de8c404bc8a1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/bad_practice/README.md" afterPath="$PROJECT_DIR$/lib/bad_practice/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="nestedLoop.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="nestedLoop.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/bad_practice/nestedLoop.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="73" column="3" lean-forward="true" selection-start-line="73" selection-start-column="3" selection-end-line="73" selection-end-column="3" />
+            <state relative-caret-position="185">
+              <caret line="23" column="2" lean-forward="true" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -50,7 +49,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/bad_practice/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -124,9 +123,9 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/build/bad_practice/nestedLoop.js" />
         <option value="$PROJECT_DIR$/lib/index.js" />
-        <option value="$PROJECT_DIR$/lib/bad_practice/nestedLoop.js" />
         <option value="$PROJECT_DIR$/build/bad_practice/README.md" />
         <option value="$PROJECT_DIR$/lib/bad_practice/README.md" />
+        <option value="$PROJECT_DIR$/lib/bad_practice/nestedLoop.js" />
       </list>
     </option>
   </component>
@@ -298,12 +297,12 @@
       <updated>1504338342724</updated>
       <workItem from="1504338344721" duration="8557000" />
       <workItem from="1504355014338" duration="1089000" />
-      <workItem from="1504428131541" duration="12640000" />
+      <workItem from="1504428131541" duration="12731000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22286000" />
+    <option name="totallyTimeSpent" value="22377000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="821" extended-state="6" />
@@ -370,9 +369,9 @@
         <state relative-caret-position="799">
           <caret line="81" column="20" lean-forward="false" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
           <folding>
-            <marker date="1504448290000" expanded="true" signature="443:481" ph="{...}" />
-            <marker date="1504448290000" expanded="true" signature="446:481" ph="[...]" />
-            <marker date="1504448290000" expanded="true" signature="479:481" ph="{...}" />
+            <marker date="1504448325000" expanded="true" signature="443:481" ph="{...}" />
+            <marker date="1504448325000" expanded="true" signature="446:481" ph="[...]" />
+            <marker date="1504448325000" expanded="true" signature="479:481" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -460,14 +459,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/bad_practice/nestedLoop.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="73" column="3" lean-forward="true" selection-start-line="73" selection-start-column="3" selection-end-line="73" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/bad_practice/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -476,6 +467,14 @@
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/bad_practice/nestedLoop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="23" column="2" lean-forward="true" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -116,14 +116,14 @@ not breaking any best practice rules we have set up.
 <b>Our first step is creating a function named by our intent:</b>
 
 ``` 
-function getUpdatedCars(...){...}
+function getUpdatedCars (...) {...}
 ```
 
 Our second step is to identify the arguments/parameters. Obviously the functions first argument should be an array of 
 cars and since we want to prepend a new word to the colors, it makes sense to have this word as the second argument:
 
 ``` 
-function getUpdatedCars(cars, wordToPrepend){...}
+function getUpdatedCars (cars, wordToPrepend) {...}
 ```
 
 This is the time to stop and think about the bigger picture. What if I want to do something else then prepend, 
