@@ -253,11 +253,11 @@ type Cars = Array<Car>;
 Looking at the flow types, neither our solution or the original solution is dealing with cases, where the car has a 
 different structure than we just defined. 
 
-The advantage of using flow here is, that we have a chance to be notified about defect by the flow server. 
+The advantage of using flow here is, that we have a chance to be notified about defects by the flow server.
 Of course, test coverage will also be helpful in detecting edge cases we forgot to cover.
 
-By deploying this solution we would introduce a random hard to track error every time our API would return cars 
-without colors and causing a really unpleasant experience for our customers.
+By deploying this solution, we are introducing a random hard to track error every time our API returns cars without 
+colors and causes a really unpleasant experience for our customers.
 
 Thanks to our refactoring, there is only 2 places where our application can break, so let's fix them:
 
