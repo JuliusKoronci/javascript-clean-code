@@ -188,8 +188,8 @@ reuse the existing functions.
 
 > YAGNI - You aren't gonna need it
 
-Let's return back to our intents here for a second. We to be able to prepend or append any kind of text and that should 
-do for now. Since we have broken down our initial solution to small reusable and replaceable functions, we can very 
+Let's return back to our intents here for a second. We are supposed to be able to prepend or append any kind of text and 
+that should do for now. Since we have broken down our initial solution to small, reusable and replaceable functions, we can very 
 easily create a different solution, if the need arises and just refactor and replace what we have so far without worrying 
 much about breaking the code.
 
