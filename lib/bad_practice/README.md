@@ -53,7 +53,7 @@ We can also say that this is a very imperative approach, hard to read and reason
 and misses documentation whatsoever. We can clearly see what the code does but we need to examine it and spend 
 brain power to understand the intent of the author.
 
-This is the moment where every picky developer will say "wtf nested for loops are a perfectly valid approach" and 
+This is the moment where every picky developer will say "wth nested for loops are a perfectly valid approach" and 
 these developers are correct as far as Javascript goes. The thing is, that we are not only javascript 
 developers but also software architects. We need to think about the future, about maintainability, testability 
 and team work. 
