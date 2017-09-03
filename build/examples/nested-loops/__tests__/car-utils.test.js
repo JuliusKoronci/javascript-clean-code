@@ -38,4 +38,7 @@ describe('getUpdatedCars', function () {
   it('should update a cars arrays colors with new', function () {
     expect((0, _carUtils.getUpdatedCars)(_carData.carsData, _carUtils.updateCarColorWithNew)).toEqual(_carData.updatedCarsData);
   });
+  it('should update a cars arrays colors with new', function () {
+    expect((0, _carUtils.getUpdatedCars)(_carData.invalidCarsData, _carUtils.updateCarColorWithNew)).toEqual(_carData.invalidCarsDataResolved);
+  });
 });

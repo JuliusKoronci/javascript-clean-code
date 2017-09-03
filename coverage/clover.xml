@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1504454660009" clover="3.2.0">
-  <project timestamp="1504454660009" name="All files">
-    <metrics statements="37" coveredstatements="37" conditionals="16" coveredconditionals="13" methods="11" coveredmethods="10" elements="64" coveredelements="60" complexity="0" loc="37" ncloc="37" packages="4" files="4" classes="4">
+<coverage generated="1504469717011" clover="3.2.0">
+  <project timestamp="1504469717011" name="All files">
+    <metrics statements="39" coveredstatements="39" conditionals="16" coveredconditionals="13" methods="11" coveredmethods="10" elements="66" coveredelements="62" complexity="0" loc="39" ncloc="39" packages="4" files="4" classes="4">
       <package name="build.examples.nested-loops.code-lists">
-        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <file name="car-data.js" path="/Users/juliuskoronci/WebstormProjects/javascript-clean-code/build/examples/nested-loops/code-lists/car-data.js">
-          <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
           <line num="3" count="1" type="stmt"/>
           <line num="6" count="1" type="stmt"/>
           <line num="22" count="1" type="stmt"/>
           <line num="38" count="1" type="stmt"/>
-          <line num="49" count="1" type="stmt"/>
-          <line num="51" count="1" type="stmt"/>
+          <line num="48" count="1" type="stmt"/>
           <line num="59" count="1" type="stmt"/>
-          <line num="62" count="1" type="stmt"/>
+          <line num="61" count="1" type="stmt"/>
+          <line num="69" count="1" type="stmt"/>
+          <line num="72" count="1" type="stmt"/>
         </file>
       </package>
       <package name="build.examples.nested-loops.utils">
@@ -24,43 +25,44 @@
           <line num="7" count="1" type="cond" truecount="1" falsecount="3"/>
           <line num="9" count="1" type="stmt"/>
           <line num="10" count="3" type="stmt"/>
-          <line num="11" count="11" type="cond" truecount="2" falsecount="0"/>
+          <line num="11" count="13" type="cond" truecount="2" falsecount="0"/>
           <line num="14" count="1" type="stmt"/>
           <line num="16" count="1" type="stmt"/>
           <line num="17" count="3" type="stmt"/>
-          <line num="19" count="5" type="cond" truecount="4" falsecount="0"/>
-          <line num="20" count="1" type="stmt"/>
-          <line num="23" count="4" type="stmt"/>
+          <line num="19" count="7" type="cond" truecount="4" falsecount="0"/>
+          <line num="20" count="2" type="stmt"/>
+          <line num="23" count="5" type="stmt"/>
           <line num="27" count="1" type="stmt"/>
           <line num="38" count="1" type="stmt"/>
-          <line num="39" count="1" type="stmt"/>
+          <line num="39" count="2" type="stmt"/>
         </file>
       </package>
       <package name="lib.examples.nested-loops.code-lists">
-        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <file name="car-data.js" path="/Users/juliuskoronci/WebstormProjects/javascript-clean-code/lib/examples/nested-loops/code-lists/car-data.js">
-          <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
           <line num="1" count="1" type="stmt"/>
           <line num="26" count="1" type="stmt"/>
           <line num="52" count="1" type="stmt"/>
-          <line num="69" count="1" type="stmt"/>
-          <line num="71" count="1" type="stmt"/>
-          <line num="82" count="1" type="stmt"/>
+          <line num="68" count="1" type="stmt"/>
           <line num="85" count="1" type="stmt"/>
+          <line num="87" count="1" type="stmt"/>
+          <line num="98" count="1" type="stmt"/>
+          <line num="101" count="1" type="stmt"/>
         </file>
       </package>
       <package name="lib.examples.nested-loops.utils">
         <metrics statements="8" coveredstatements="8" conditionals="6" coveredconditionals="6" methods="5" coveredmethods="5"/>
         <file name="car-utils.js" path="/Users/juliuskoronci/WebstormProjects/javascript-clean-code/lib/examples/nested-loops/utils/car-utils.js">
           <metrics statements="8" coveredstatements="8" conditionals="6" coveredconditionals="6" methods="5" coveredmethods="5"/>
-          <line num="4" count="11" type="cond" truecount="2" falsecount="0"/>
+          <line num="4" count="13" type="cond" truecount="2" falsecount="0"/>
           <line num="5" count="1" type="stmt"/>
           <line num="7" count="3" type="stmt"/>
-          <line num="9" count="5" type="cond" truecount="4" falsecount="0"/>
-          <line num="10" count="1" type="stmt"/>
-          <line num="13" count="4" type="stmt"/>
+          <line num="9" count="7" type="cond" truecount="4" falsecount="0"/>
+          <line num="10" count="2" type="stmt"/>
+          <line num="13" count="5" type="stmt"/>
           <line num="16" count="1" type="stmt"/>
-          <line num="28" count="1" type="stmt"/>
+          <line num="28" count="2" type="stmt"/>
         </file>
       </package>
     </metrics>

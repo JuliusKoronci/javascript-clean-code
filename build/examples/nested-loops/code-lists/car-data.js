@@ -45,6 +45,16 @@ var invalidCarsData = exports.invalidCarsData = [{
     name: "black"
   }]
 }];
+var invalidCarsDataResolved = exports.invalidCarsDataResolved = [{
+  company: "honda"
+}, {
+  company: "ford",
+  colors: [{
+    name: "burntOrange new"
+  }, {
+    name: "black new"
+  }]
+}];
 
 var color = exports.color = { name: 'My awesome color' };
 
