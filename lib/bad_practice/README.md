@@ -108,7 +108,7 @@ will need to create a copy of the function.
 
 ### Addressing all rules with a declarative approach of what we want to achieve
 
-Lets start by identifying the purpose of the code, what is it we want to achieve, what is our intent? 
+Let's start by identifying the purpose of the code, what is it that we want to achieve, what is our intent? 
 
 We have an array of cars and we would like to be able to get a new array where the data of the cars is updated while 
 not breaking any best practice rules we have set up.
@@ -133,7 +133,7 @@ is this function reusable and clean enough? Is this thinking premature optimisat
 > best practices by default and it will never be premature optimisation. Anyway, writing spaghetti code can 
 > never be justified by premature optimisation :)
 
-Lets revise our solution by become a bit functional. 
+Let's revise our solution by becoming a bit functional. 
 
 > Oh crap another functional guy, but don't worry not as much functional :)
 
