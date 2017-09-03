@@ -4,6 +4,8 @@
   "description": "We are going to establish some basic rules of clean code, what to follow and what indicates bad practice.  Many of the examples we will show are perfectly valid code and the reason why we consider it bad practice is not the  code itself but the bigger picture. We are software engineers developing robust applications which need to be future  proof so while a solutions is perfectly good for showcasing in 1 testing file, it may not be acceptable  within a real project.",
   "main": "index.js",
   "scripts": {
+    "flow": "flow",
+    "test": "jest --coverage",
     "browserify": "browserify build/index.js -o build/bundle.js",
     "build": "babel lib -d build && npm run browserify",
     "build:watch": "watch \"npm run build \" lib",
@@ -23,11 +25,11 @@
   },
   "homepage": "https://github.com/JuliusKoronci/javascript-clean-code#readme",
   "dependencies": {
-    "browserify": "^14.4.0",
-    "ramda": "^0.24.1",
-    "watch": "^1.0.2"
+    "ramda": "^0.24.1"
   },
   "devDependencies": {
+    "browserify": "^14.4.0",
+    "jest": "^20.0.4",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-eslint": "^7.2.3",
@@ -41,6 +43,7 @@
     "eslint-watch": "^3.1.2",
     "prop-types": "^15.5.10",
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "watch": "^1.0.2"
   }
 }
