@@ -64,7 +64,7 @@ it after 2 weeks time.
 
 What we strive for, is code where it is immediately clear what the intent of the author was. We strive for easily 
 maintainable code, so that when a new requirement arrives, we can just change a small part of the code, run a test and 
-be assured that nothing brakes.
+be assured that nothing breaks.
 
 ##### Examining the code
 
