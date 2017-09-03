@@ -8,5 +8,6 @@ var _nestedLoop = require('./bad_practice/nestedLoop');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+console.log((0, _nestedLoop.mapCarColorsToAppendNew)(_nestedLoop.carsData));
+console.log((0, _nestedLoop.getUpdatedCars)(_nestedLoop.carsData, _nestedLoop.appendNewToColor));
 console.log((0, _nestedLoop.updateCarWithColorBad)(_nestedLoop.carsData));
-console.log((0, _nestedLoop.updateCarsColors)(_nestedLoop.carsData));
