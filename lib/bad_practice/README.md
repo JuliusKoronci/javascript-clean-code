@@ -68,10 +68,10 @@ be assured that nothing breaks.
 
 ##### Examining the code
 
-In the first step, lets address the biggest issue of the code sample. I would even call it a bug. As everyone 
-guessed it is the violation of rule number 3. TBH, I didn't see the bug until I started to rewrite the code :)
+In the first step, let's address the biggest issue of the code sample. I would even call it a bug. As everyone 
+guessed it is a violation of rule number 3. TBH, I didn't see the bug until I started to rewrite the code :)
 
-Before we start anything, lets make sure we know what the code does:
+Before we start anything, let's make sure we know what the code does:
 We have a cars array and we are pretending the word "new" to the colors in the array. This is all the code does. 
 
 One of the first questions, which come to mind is: what will happen, if later or, in the app I will need an array of 
@@ -139,7 +139,7 @@ Lets revise our solution by become a bit functional.
 
 My idea of the solution is as follows: What if I have a cars array and I could run any kind of transformation function 
 on it in order to get an updated cars array. I could have a little utility library with all the transformation 
-functions I will ever need and I can slowly create more, when the need will arise. Lets be SOLID, DRY, lets follow 
+functions I will ever need and I can slowly create more, when the need will arise. Lets be SOLID, DRY, let's follow 
 SRP and YAGNI. 
 
 > Yes design patterns are an important knowledge of every seasoned developer :)
@@ -258,7 +258,7 @@ Of course, test coverage will also be helpful in detecting edge cases we forgot 
 By deploying this solution we would introduce a random hard to track error every time our API would return cars 
 without colors and causing a really unpleasant experience for our customers.
 
-Thanks to our refactoring, there is only 2 places where our application can break, so lets fix them:
+Thanks to our refactoring, there is only 2 places where our application can break, so let's fix them:
 
 ``` 
 const appendStringToColor = (string) => (color) => ({ name: `${color ? color.name: ''} ${string}` });
