@@ -222,12 +222,12 @@ getUpdatedCars(carsData, appendNewToColor);
 ```
 
 We abstracted all the functions to a utils file and use only what we need. It is clear what the function does, 
-although we could work on the naming :) , our solution is declarative and reusable.It is easy to test, 
+although we could work on the naming :) , our solution is declarative and reusable. It is easy to test, 
 easy to change, easy to extend. All the functions we created so far are following SRP, they have only one 
 responsibility, they do only one thing. We can easily combine them though and compose more complex solutions. 
 All of the functions are pure and writing a test is just saying this goes in and I expect that coming out.
 
-### Flow, documentation and what missed
+### Flow, documentation and what we missed
 
 So are we ready yet? No, not really :)
 So far followed the happy path approach.
