@@ -273,10 +273,10 @@ const updateCarColor = (updateFn) => (car) => {
   return { ...car, colors: car.colors.map(updateFn) };
 };
 ```
-If we would call <b>color.name</b> and "color" is undefined, we would get an error. The same goes for <b>car.colors</b>.
+If we call <b>color.name</b> and "color" is undefined, we get an error. The same goes for <b>car.colors</b>.
 
 The exception handling here is not the best but proves the point for the article. TBH I prefer to throw Errors and 
-handle them in a try catch, but this really depends on the application and the developers approach. 
+handle them in a try catch, but this really depends on the application and the developer's approach. 
 
 Even if we didn't cover every error, once they appear, they will be very specific and we will know exactly the function
 where it happened and how to fix it.
