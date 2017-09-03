@@ -210,7 +210,7 @@ const appendNewToColor = appendStringToColor('new');
 
 We now have a function which accepts a color and appends the word new to it. 
 
-How would our solution look like in a real project?
+What would our solution look like in a real project?
 
 ```
 import {
