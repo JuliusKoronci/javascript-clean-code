@@ -308,12 +308,12 @@ What to take away from this article? Best practices have their meaning, but when
 and lack the required knowledge, they see almost no meaning in writing a good code. Writing good quality code should 
 be a habit, I would write the nested for loops directly the way we wrote the final solution. It would 
 take me almost the same amount of time. Writing good code is not premature optimisation and even though it can 
-take slightly more time and following the best practice rules is sometimes a pain in the ***, it will pay of in 
+take slightly more time and following the best practice rules is sometimes a pain in the ***, it will pay off in 
 the long term. Your code will have less bugs and even if a bug is discovered in the future, it will be easy to fix.
 
 We have a GITHUB repo where we started to gather code we think can be improved, 
 it will have the final code with tests, flow types and explanations. Everyone is 
 welcome to contribute and open discussions. 
 
-The solution presented above is not the only way or the best way of doing it but it definitely is my take on the 
-nested for loops and I am more than happy to discuss the good or bad parts of my solution :)
+The solution presented above is not the only way, or the best way of doing it, but it definitely is my take on the nested 
+for loops and I am more than happy to discuss the good or bad parts of my solution :)

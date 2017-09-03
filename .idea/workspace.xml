@@ -54,8 +54,8 @@
         <entry file="file://$PROJECT_DIR$/lib/bad_practice/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="110">
-                <caret line="307" column="0" lean-forward="false" selection-start-line="307" selection-start-column="0" selection-end-line="307" selection-end-column="0" />
+              <first_editor relative-caret-position="272">
+                <caret line="318" column="0" lean-forward="false" selection-start-line="318" selection-start-column="0" selection-end-line="318" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -298,12 +298,12 @@
       <updated>1504338342724</updated>
       <workItem from="1504338344721" duration="8557000" />
       <workItem from="1504355014338" duration="1089000" />
-      <workItem from="1504428131541" duration="13952000" />
+      <workItem from="1504428131541" duration="14050000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23598000" />
+    <option name="totallyTimeSpent" value="23696000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="821" extended-state="6" />
@@ -370,9 +370,9 @@
         <state relative-caret-position="799">
           <caret line="81" column="20" lean-forward="false" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
           <folding>
-            <marker date="1504449698000" expanded="true" signature="443:481" ph="{...}" />
-            <marker date="1504449698000" expanded="true" signature="446:481" ph="[...]" />
-            <marker date="1504449698000" expanded="true" signature="479:481" ph="{...}" />
+            <marker date="1504449953000" expanded="true" signature="443:481" ph="{...}" />
+            <marker date="1504449953000" expanded="true" signature="446:481" ph="[...]" />
+            <marker date="1504449953000" expanded="true" signature="479:481" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -471,8 +471,8 @@
     <entry file="file://$PROJECT_DIR$/lib/bad_practice/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="110">
-            <caret line="307" column="0" lean-forward="false" selection-start-line="307" selection-start-column="0" selection-end-line="307" selection-end-column="0" />
+          <first_editor relative-caret-position="272">
+            <caret line="318" column="0" lean-forward="false" selection-start-line="318" selection-start-column="0" selection-end-line="318" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
