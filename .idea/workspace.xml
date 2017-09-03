@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="17c0f080-f4ac-4af2-a307-de8c404bc8a1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bad_practice/README.md" afterPath="$PROJECT_DIR$/build/bad_practice/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bad_practice/nestedLoop.js" afterPath="$PROJECT_DIR$/build/bad_practice/nestedLoop.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bundle.js" afterPath="$PROJECT_DIR$/build/bundle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/index.js" afterPath="$PROJECT_DIR$/build/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/bad_practice/nestedLoop.js" afterPath="$PROJECT_DIR$/lib/bad_practice/nestedLoop.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/index.js" afterPath="$PROJECT_DIR$/lib/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/bad_practice/README.md" afterPath="$PROJECT_DIR$/lib/bad_practice/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -56,11 +51,11 @@
         </entry>
       </file>
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/build/bad_practice/README.md">
+        <entry file="file://$PROJECT_DIR$/lib/bad_practice/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="535">
-                <caret line="287" column="92" lean-forward="false" selection-start-line="287" selection-start-column="92" selection-end-line="287" selection-end-column="92" />
+              <first_editor relative-caret-position="400">
+                <caret line="313" column="70" lean-forward="false" selection-start-line="313" selection-start-column="70" selection-end-line="313" selection-end-column="70" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -128,6 +123,7 @@
         <option value="$PROJECT_DIR$/lib/index.js" />
         <option value="$PROJECT_DIR$/lib/bad_practice/nestedLoop.js" />
         <option value="$PROJECT_DIR$/build/bad_practice/README.md" />
+        <option value="$PROJECT_DIR$/lib/bad_practice/README.md" />
       </list>
     </option>
   </component>
@@ -252,12 +248,13 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/lib" />
-      <recent name="$PROJECT_DIR$/lib/fp" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/bad_practice" />
+      <recent name="$PROJECT_DIR$/lib" />
+      <recent name="$PROJECT_DIR$/lib/fp" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -298,15 +295,16 @@
       <updated>1504338342724</updated>
       <workItem from="1504338344721" duration="8557000" />
       <workItem from="1504355014338" duration="1089000" />
-      <workItem from="1504428131541" duration="8640000" />
+      <workItem from="1504428131541" duration="12109000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18286000" />
+    <option name="totallyTimeSpent" value="21755000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="821" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -316,7 +314,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904148" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32859176" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32859176" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -369,9 +367,9 @@
         <state relative-caret-position="799">
           <caret line="81" column="20" lean-forward="false" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
           <folding>
-            <marker date="1504436291000" expanded="true" signature="443:481" ph="{...}" />
-            <marker date="1504436291000" expanded="true" signature="446:481" ph="[...]" />
-            <marker date="1504436291000" expanded="true" signature="479:481" ph="{...}" />
+            <marker date="1504447103000" expanded="true" signature="443:481" ph="{...}" />
+            <marker date="1504447103000" expanded="true" signature="446:481" ph="[...]" />
+            <marker date="1504447103000" expanded="true" signature="479:481" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -380,6 +378,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="48" lean-forward="false" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -466,11 +465,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/bad_practice/README.md">
+    <entry file="file://$PROJECT_DIR$/lib/bad_practice/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="535">
-            <caret line="287" column="92" lean-forward="false" selection-start-line="287" selection-start-column="92" selection-end-line="287" selection-end-column="92" />
+          <first_editor relative-caret-position="400">
+            <caret line="313" column="70" lean-forward="false" selection-start-line="313" selection-start-column="70" selection-end-line="313" selection-end-column="70" />
             <folding />
           </first_editor>
           <second_editor />
