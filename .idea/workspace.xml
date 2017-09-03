@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="17c0f080-f4ac-4af2-a307-de8c404bc8a1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/bad_practice/README.md" afterPath="$PROJECT_DIR$/lib/bad_practice/README.md" />
-    </list>
+    <list default="true" id="17c0f080-f4ac-4af2-a307-de8c404bc8a1" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -54,8 +51,8 @@
         <entry file="file://$PROJECT_DIR$/lib/bad_practice/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="120">
-                <caret line="137" column="76" lean-forward="false" selection-start-line="137" selection-start-column="76" selection-end-line="137" selection-end-column="76" />
+              <first_editor relative-caret-position="165">
+                <caret line="45" column="42" lean-forward="true" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -298,12 +295,12 @@
       <updated>1504338342724</updated>
       <workItem from="1504338344721" duration="8557000" />
       <workItem from="1504355014338" duration="1089000" />
-      <workItem from="1504428131541" duration="12918000" />
+      <workItem from="1504428131541" duration="12951000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22564000" />
+    <option name="totallyTimeSpent" value="22597000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="821" extended-state="6" />
@@ -370,9 +367,9 @@
         <state relative-caret-position="799">
           <caret line="81" column="20" lean-forward="false" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
           <folding>
-            <marker date="1504448601000" expanded="true" signature="443:481" ph="{...}" />
-            <marker date="1504448601000" expanded="true" signature="446:481" ph="[...]" />
-            <marker date="1504448601000" expanded="true" signature="479:481" ph="{...}" />
+            <marker date="1504448666000" expanded="true" signature="443:481" ph="{...}" />
+            <marker date="1504448666000" expanded="true" signature="446:481" ph="[...]" />
+            <marker date="1504448666000" expanded="true" signature="479:481" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -471,8 +468,8 @@
     <entry file="file://$PROJECT_DIR$/lib/bad_practice/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="120">
-            <caret line="137" column="76" lean-forward="false" selection-start-line="137" selection-start-column="76" selection-end-line="137" selection-end-column="76" />
+          <first_editor relative-caret-position="165">
+            <caret line="45" column="42" lean-forward="true" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
             <folding />
           </first_editor>
           <second_editor />
