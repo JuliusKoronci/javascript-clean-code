@@ -2,22 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17c0f080-f4ac-4af2-a307-de8c404bc8a1" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/bad_practice/nestedLoop.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/examples/nested-loops/__tests__/car-utils.test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/examples/nested-loops/code-lists/car-data.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/examples/nested-loops/flow-types/car-types.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/examples/nested-loops/nestedLoop.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/examples/nested-loops/utils/car-utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/examples/nestedLoop.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/fp/parseInt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/clover.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/coverage-final.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/base.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/build/examples/nested-loops/code-lists/car-data.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/build/examples/nested-loops/code-lists/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/build/examples/nested-loops/utils/car-utils.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/build/examples/nested-loops/utils/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/lib/examples/nested-loops/code-lists/car-data.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/lib/examples/nested-loops/code-lists/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/lib/examples/nested-loops/utils/car-utils.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/lib/examples/nested-loops/utils/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/prettify.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/prettify.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/sort-arrow-sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/sorter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-debug.log" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/examples/nested-loops/__tests__/car-utils.test.js" afterPath="$PROJECT_DIR$/build/examples/nested-loops/__tests__/car-utils.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/clover.xml" afterPath="$PROJECT_DIR$/coverage/clover.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/coverage-final.json" afterPath="$PROJECT_DIR$/coverage/coverage-final.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/lcov-report/build/examples/nested-loops/code-lists/car-data.js.html" afterPath="$PROJECT_DIR$/coverage/lcov-report/build/examples/nested-loops/code-lists/car-data.js.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/lcov-report/build/examples/nested-loops/code-lists/index.html" afterPath="$PROJECT_DIR$/coverage/lcov-report/build/examples/nested-loops/code-lists/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/lcov-report/build/examples/nested-loops/utils/car-utils.js.html" afterPath="$PROJECT_DIR$/coverage/lcov-report/build/examples/nested-loops/utils/car-utils.js.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/lcov-report/build/examples/nested-loops/utils/index.html" afterPath="$PROJECT_DIR$/coverage/lcov-report/build/examples/nested-loops/utils/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/lcov-report/index.html" afterPath="$PROJECT_DIR$/coverage/lcov-report/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/lcov-report/lib/examples/nested-loops/code-lists/car-data.js.html" afterPath="$PROJECT_DIR$/coverage/lcov-report/lib/examples/nested-loops/code-lists/car-data.js.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/lcov-report/lib/examples/nested-loops/code-lists/index.html" afterPath="$PROJECT_DIR$/coverage/lcov-report/lib/examples/nested-loops/code-lists/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/lcov-report/lib/examples/nested-loops/utils/car-utils.js.html" afterPath="$PROJECT_DIR$/coverage/lcov-report/lib/examples/nested-loops/utils/car-utils.js.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/lcov-report/lib/examples/nested-loops/utils/index.html" afterPath="$PROJECT_DIR$/coverage/lcov-report/lib/examples/nested-loops/utils/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/lcov.info" afterPath="$PROJECT_DIR$/coverage/lcov.info" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/examples/nested-loops/__tests__/car-utils.test.js" afterPath="$PROJECT_DIR$/lib/examples/nested-loops/__tests__/car-utils.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/examples/nested-loops/code-lists/car-data.js" afterPath="$PROJECT_DIR$/lib/examples/nested-loops/code-lists/car-data.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -55,8 +69,8 @@
       <file leaf-file-name="car-utils.test.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/examples/nested-loops/__tests__/car-utils.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="44" column="98" lean-forward="false" selection-start-line="44" selection-start-column="98" selection-end-line="44" selection-end-column="98" />
+            <state relative-caret-position="151">
+              <caret line="35" column="45" lean-forward="false" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
               <folding>
                 <element signature="e#0#141#0" expanded="true" />
               </folding>
@@ -77,8 +91,8 @@
       <file leaf-file-name="car-utils.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/examples/nested-loops/utils/car-utils.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="114" lean-forward="false" selection-start-line="3" selection-start-column="114" selection-end-line="3" selection-end-column="114" />
+            <state relative-caret-position="148">
+              <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -112,6 +126,8 @@
       <find>the so</find>
       <find>Cars</find>
       <find>Colo</find>
+      <find>updateCarColor</find>
+      <find>test</find>
     </findStrings>
     <replaceStrings>
       <replace>const</replace>
@@ -140,8 +156,8 @@
         <option value="$PROJECT_DIR$/lib/examples/nested-loops/flow-types/car-types.js" />
         <option value="$PROJECT_DIR$/lib/examples/nested-loops/nestedLoop.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/lib/examples/nested-loops/utils/car-utils.js" />
         <option value="$PROJECT_DIR$/lib/examples/nested-loops/code-lists/car-data.js" />
+        <option value="$PROJECT_DIR$/lib/examples/nested-loops/utils/car-utils.js" />
         <option value="$PROJECT_DIR$/lib/examples/nested-loops/__tests__/car-utils.test.js" />
       </list>
     </option>
@@ -287,12 +303,12 @@
       <updated>1504338342724</updated>
       <workItem from="1504338344721" duration="8557000" />
       <workItem from="1504355014338" duration="1089000" />
-      <workItem from="1504428131541" duration="17124000" />
+      <workItem from="1504428131541" duration="17619000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26770000" />
+    <option name="totallyTimeSpent" value="27265000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="821" extended-state="0" />
@@ -359,11 +375,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="799">
           <caret line="81" column="20" lean-forward="false" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
-          <folding>
-            <marker date="1504469608000" expanded="true" signature="443:481" ph="{...}" />
-            <marker date="1504469608000" expanded="true" signature="446:481" ph="[...]" />
-            <marker date="1504469608000" expanded="true" signature="479:481" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -495,16 +507,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/examples/nested-loops/utils/car-utils.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="114" lean-forward="false" selection-start-line="3" selection-start-column="114" selection-end-line="3" selection-end-column="114" />
+        <state relative-caret-position="148">
+          <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/examples/nested-loops/__tests__/car-utils.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="44" column="98" lean-forward="false" selection-start-line="44" selection-start-column="98" selection-end-line="44" selection-end-column="98" />
+        <state relative-caret-position="151">
+          <caret line="35" column="45" lean-forward="false" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
           <folding>
             <element signature="e#0#141#0" expanded="true" />
           </folding>

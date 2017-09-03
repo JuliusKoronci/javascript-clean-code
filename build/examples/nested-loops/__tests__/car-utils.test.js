@@ -9,7 +9,7 @@ describe('appendStringToColor', function () {
     expect((0, _carUtils.appendStringToColor)('test')(_carData.color)).toEqual({ name: 'My awesome color test' });
   });
   it('should append empty string to color if color not defined', function () {
-    expect((0, _carUtils.appendStringToColor)('test')(null)).toEqual({ name: 'My awesome color ' });
+    expect((0, _carUtils.appendStringToColor)('new')(null)).toEqual({ name: ' new' });
   });
 });
 
@@ -26,11 +26,24 @@ describe('updateCarColor', function () {
   it('should return the original car if invalid', function () {
     expect((0, _carUtils.updateCarColor)(_carUtils.appendNewToColor)(_carData.invalidCar)).toEqual(_carData.invalidCar);
   });
+  it('should return the original car if invalid', function () {
+    expect((0, _carUtils.updateCarColor)(_carUtils.appendNewToColor)()).toBe(undefined);
+  });
+  it('should return the original car if invalid', function () {
+    expect((0, _carUtils.updateCarColor)()()).toBe(undefined);
+  });
 });
 
 describe('updateCarColorWithNew', function () {
   it('should append new to a cars color', function () {
     expect((0, _carUtils.updateCarColorWithNew)(_carData.car)).toEqual(_carData.updatedCar);
+  });
+
+  it('should return the original car if invalid', function () {
+    expect((0, _carUtils.updateCarColorWithNew)(_carData.invalidCar)).toEqual(_carData.invalidCar);
+  });
+  it('should return the original car if invalid', function () {
+    expect((0, _carUtils.updateCarColorWithNew)()).toBe(undefined);
   });
 });
 
