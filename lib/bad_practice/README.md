@@ -59,7 +59,7 @@ developers but also software architects. We need to think about the future, abou
 and team work. 
 
 In my career I have seen many brilliant developers produce highly technical, advanced code looking 
-like from the future which went straight into the trash, cause no one was able to work with it, change it or understand 
+like from the future which went straight into the trash, because no one was able to work with it, change it or understand 
 it after 2 weeks time. 
 
 What we strive for, is code where it is immediately clear what the intent of the author was. We strive for easily 
