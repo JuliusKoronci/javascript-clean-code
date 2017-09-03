@@ -304,8 +304,8 @@ export const getUpdatedCars = (cars: Cars, updateFn: (car: Car): Cars => Car) =>
 
 ### Closing words
 
-What to take away from this article? Best practices has their meaning but when people don't see the bigger picture 
-and lack the required knowledge they will see almost no meaning in writing good code. Writing good quality code should 
+What to take away from this article? Best practices have their meaning, but when people don't see the bigger picture 
+and lack the required knowledge, they see almost no meaning in writing a good code. Writing good quality code should 
 be a habit, I would write the nested for loops directly the way we wrote the final solution. It would 
 take me almost the same amount of time. Writing good code is not premature optimisation and even though it can 
 take slightly more time and following the best practice rules is sometimes a pain in the ***, it will pay of in 
