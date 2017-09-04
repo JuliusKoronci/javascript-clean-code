@@ -32,6 +32,14 @@ describe('updateCarColor', function () {
   it('should return the original car if invalid', function () {
     expect((0, _carUtils.updateCarColor)()()).toBe(undefined);
   });
+  it('should return the original car if missing fn', function () {
+    expect((0, _carUtils.updateCarColor)()(_carData.invalidCar)).toBe(_carData.invalidCar);
+  });
+  it('should return the original car if missing fn', function () {
+    expect(function () {
+      return (0, _carUtils.updateCarColor)()(_carData.car);
+    }).toThrow();
+  });
 });
 
 describe('updateCarColorWithNew', function () {

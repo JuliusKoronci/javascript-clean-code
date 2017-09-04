@@ -2,16 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17c0f080-f4ac-4af2-a307-de8c404bc8a1" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/bad_practice/nestedLoop.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/examples/nested-loops/__tests__/car-utils.test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/examples/nested-loops/code-lists/car-data.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/examples/nested-loops/flow-types/car-types.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/examples/nested-loops/nestedLoop.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/examples/nested-loops/utils/car-utils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/examples/nestedLoop.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/fp/parseInt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/index.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/clover.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/coverage-final.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/base.css" afterPath="" />
@@ -19,6 +9,8 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/build/examples/nested-loops/code-lists/index.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/build/examples/nested-loops/utils/car-utils.js.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/build/examples/nested-loops/utils/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/code-lists/car-data.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/code-lists/index.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/index.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/lib/examples/nested-loops/code-lists/car-data.js.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/lib/examples/nested-loops/code-lists/index.html" afterPath="" />
@@ -28,9 +20,11 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/prettify.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/sort-arrow-sprite.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/sorter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/utils/car-utils.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/utils/index.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-debug.log" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/examples/nested-loops/__tests__/car-utils.test.js" afterPath="$PROJECT_DIR$/build/examples/nested-loops/__tests__/car-utils.test.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/examples/nested-loops/__tests__/car-utils.test.js" afterPath="$PROJECT_DIR$/lib/examples/nested-loops/__tests__/car-utils.test.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -69,8 +63,8 @@
       <file leaf-file-name="car-utils.test.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/examples/nested-loops/__tests__/car-utils.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="35" column="45" lean-forward="false" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
+            <state relative-caret-position="136">
+              <caret line="40" column="51" lean-forward="false" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
               <folding>
                 <element signature="e#0#141#0" expanded="true" />
               </folding>
@@ -91,8 +85,8 @@
       <file leaf-file-name="car-utils.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/examples/nested-loops/utils/car-utils.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="34" />
+            <state relative-caret-position="135">
+              <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -237,6 +231,11 @@
               <item name="javascript-clean-code" type="b2602c69:ProjectViewProjectNode" />
               <item name="javascript-clean-code" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="javascript-clean-code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javascript-clean-code" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -303,12 +302,12 @@
       <updated>1504338342724</updated>
       <workItem from="1504338344721" duration="8557000" />
       <workItem from="1504355014338" duration="1089000" />
-      <workItem from="1504428131541" duration="17619000" />
+      <workItem from="1504428131541" duration="18054000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27265000" />
+    <option name="totallyTimeSpent" value="27700000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="821" extended-state="0" />
@@ -507,16 +506,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/examples/nested-loops/utils/car-utils.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="34" />
+        <state relative-caret-position="135">
+          <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/examples/nested-loops/__tests__/car-utils.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="35" column="45" lean-forward="false" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
+        <state relative-caret-position="136">
+          <caret line="40" column="51" lean-forward="false" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
           <folding>
             <element signature="e#0#141#0" expanded="true" />
           </folding>
