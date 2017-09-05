@@ -230,7 +230,7 @@ All of the functions are pure and writing a test is just saying this goes in and
 ### Flow, documentation and what we missed
 
 So are we ready yet? No, not really :)
-So far followed the happy path approach.
+So far we followed the happy path approach.
  
 > happy path is actually a design principle I follow while programming, it works really well with Demeter's law
 
@@ -288,16 +288,19 @@ grasp, even without a docblock. The only function which really needs a docblock 
 can see naming functions the way everyone can understand your intent is really hard and documentation can help here a lot.
 
 ``` 
+
+type UpdateCarFn = (car: Car) => Car;
+
 /**
  * Use this function to get a new array of cars with updated values,
  * you can pass in any function which is able to convert a car object
  *
- * @param {Array} cars - an array of car [{company: [string], cars: [[{name: [string]}]]}]
- * @param {Function} updateFn - a function which converts a Car to a new desired format
- * 
+ * @param {Array} cars - an Array of cars [{company: [string], cars: [[{name: [string]}]]}]
+ * @param {Function} updateCarFn - a function which converts a Car to a new desired format
+ *
  * @returns {Array} - returns an Array of cars with same length but transformed content
  */
-export const getUpdatedCars = (cars: Cars, updateFn: (car: Car): Cars => Car) => cars.map(updateFn);
+export const getUpdatedCars: GetUpdatedCars = (cars, updateCarFn: UpdateCarFn): Cars => cars.map(updateFn);
 
 ```
 
