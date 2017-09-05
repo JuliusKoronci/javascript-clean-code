@@ -72,9 +72,9 @@ In the first step, let's address the biggest issue of the code sample. I would e
 guessed it is a violation of rule number 3. TBH, I didn't see the bug until I started to rewrite the code :)
 
 Before we start anything, let's make sure we know what the code does:
-We have a cars array and we are appending the word "new" to the colors in the array. This is all the code does. 
+We have a cars array and we are prepend the word "new" to the colors in the array. This is all the code does. 
 
-One of the first questions, which come to mind is: what will happen, if later or, in the app I will need an array of 
+One of the first questions, which comes to mind is: what will happen, if later on, in the app I will need an array of 
 the cars, where instead of the word "new" I would need to prepend the word "old". With the current approach, we would 
 create another nested for loop, and do the same just with a different word. 
 If we ignore DRY, SRP and SOLID principles for now and go forward with this idea, will it work?
@@ -91,7 +91,7 @@ It is actually very simple to address these rules and our approach will consist 
 simple reusable function:
 
 ```
-const mapCarColorsToAppendNew = (cars) => {
+const mapCarColorsToPrependNew = (cars) => {
   return cars.map((car) => {
     return {
       ...car,
@@ -163,7 +163,7 @@ very evident.
 
 <b>Time to create our transformation function and explain our reasoning behind.</b> 
 
-Our intent is to create a function which will update the colors of a car with whatever I want.
+Our intent is to create a function which will update the colors of a car with whatever we want.
 
 ``` 
 const updateCarColor = (updateFn) => (car) => (...);
@@ -177,7 +177,7 @@ Here are our partially applied functions, which will work with our cars loop:
 
 ``` 
 const prependText = updateCarColor(prependTextFn);
-const appendText = updateCarColor(appendTextFn);
+const prependText = updateCarColor(prependTextFn);
 ```
 
 This is the point where we need to stop and think a little 'YAGNI'. We need to think about the level of abstraction we want. 
@@ -188,7 +188,7 @@ reuse the existing functions.
 
 > YAGNI - You aren't gonna need it
 
-Let's return back to our intents here for a second. We are supposed to be able to prepend or append any kind of text and 
+Let's return back to our intents here for a second. We are supposed to be able to prepend or prepend any kind of text and 
 that should do for now. Since we have broken down our initial solution to small, reusable and replaceable functions, we can very 
 easily create a different solution, if the need arises and just refactor and replace what we have so far without worrying 
 much about breaking the code.
@@ -204,21 +204,21 @@ const updateCarColor = (transformCarColor) => (car) => ({ ...car, colors: car.co
 The only step missing is the actual transformCarColor function.
 
 ``` 
-const appendStringToColor = (string) => (color) => ({ name: `${color.name} ${string}` });
-const appendNewToColor = appendStringToColor('new');
+const prependStringToColor = (string) => (color) => ({ name: `${color.name} ${string}` });
+const prependNewToColor = prependStringToColor('new');
 ```
 
-We now have a function which accepts a color and appends the word new to it. 
+We now have a function which accepts a color and prepends the word new to it. 
 
 What would our solution look like in a real project?
 
 ```
 import {
   getUpdatedCars,
-  appendNewToColor,
+  prependNewToColor,
 } from './bad_practice/car-utils';
 
-getUpdatedCars(carsData, appendNewToColor);
+getUpdatedCars(carsData, prependNewToColor);
 ```
 
 We abstracted all the functions to a utils file and use only what we need. It is clear what the function does, 
@@ -262,7 +262,7 @@ colors and causes a really unpleasant experience for our customers.
 Thanks to our refactoring, there is only 2 places where our application can break, so let's fix them:
 
 ``` 
-const appendStringToColor = (string) => (color) => ({ name: `${color ? color.name: ''} ${string}` });
+const prependStringToColor = (string) => (color) => ({ name: `${color ? color.name: ''} ${string}` });
 
 const updateCarColor = (updateFn) => (car) => {
   // we just want to return whatever is passed in and let application handle the incorrect car
