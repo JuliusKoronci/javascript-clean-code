@@ -72,7 +72,7 @@ In the first step, let's address the biggest issue of the code sample. I would e
 guessed it is a violation of rule number 3. TBH, I didn't see the bug until I started to rewrite the code :)
 
 Before we start anything, let's make sure we know what the code does:
-We have a cars array and we are pretending the word "new" to the colors in the array. This is all the code does. 
+We have a cars array and we are appending the word "new" to the colors in the array. This is all the code does. 
 
 One of the first questions, which come to mind is: what will happen, if later or, in the app I will need an array of 
 the cars, where instead of the word "new" I would need to prepend the word "old". With the current approach, we would 
