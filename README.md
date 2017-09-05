@@ -26,18 +26,22 @@ ensure that everyone can clearly understand your solution and <b><i>intentions</
 
 ### Rules
 
-1. Avoid the use the let keyword
-2. Maximum 1 level of nesting
-3. No else or if else blocks
-4. Prefer early return
-5. Declarative over imperative
-6. SRP, SOLID, DRY, KISS, YAGNI, JIT...
-7. Be functional but not too much :)
-8. Prefer arrow functions for context binding
-9. Create modules and packages for helpers and utilities
-10. Refactor code all the time
-11. Organise your code in strict folder structures 
-12. README file for every module, feature
-13. Use Airbnb's linter
-14. Write tests and aim for 100% test coverage
-15. Consistent return type - a function can return only 1 type even in case of exception
+- Avoid the use of the let keyword
+- Maximum 1 level of nesting
+- No else or if else blocks
+- Maximum 3 argument
+- No nested loops
+- Prefer early return
+- Declarative over imperative
+- Use ES6+
+- No for loops 
+- SRP, SOLID, DRY, KISS, YAGNI, JIT...
+- Be functional but not too much :)
+- Prefer arrow functions for context binding
+- Create modules and packages for helpers and utilities
+- Refactor code all the time
+- Organise your code in strict folder structures 
+- README file for every module, feature
+- Use Airbnb's linter
+- Write tests and aim for 100% test coverage
+- Consistent return type - a function should return one type or throw an Error
