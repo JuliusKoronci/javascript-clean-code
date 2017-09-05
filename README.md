@@ -40,3 +40,4 @@ ensure that everyone can clearly understand your solution and <b><i>intentions</
 12. README file for every module, feature
 13. Use Airbnb's linter
 14. Write tests and aim for 100% test coverage
+15. Consistent return type - a function can return only 1 type even in case of exception
