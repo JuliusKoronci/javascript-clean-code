@@ -82,7 +82,7 @@ I hope that you are convinced by now, that while the code sample is perfectly va
 
 It is actually very simple to address these rules and our approach will consist of converting the for loops into a simple reusable function:
 
-```
+```javascript
 const mapCarColorsToPrependNew = (cars) => {
   return cars.map((car) => {
     return {
