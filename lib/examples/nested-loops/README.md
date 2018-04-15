@@ -1,7 +1,7 @@
 # The nested evil for loop
 
-In this article we'll have a look at a practical example that I came across on stackoverflow. It's a real world example
-which looks perfectly fine, but doesn't meet our requirements to be considered "Good quality code". Let's begin by having a look at the code below:
+In this article we'll have a look at a practical example that I came across on stackoverflow and try to refactor and improve upon it. It's a real world example
+which looks perfectly fine, but doesn't meet some basic requirements to be considered "Good quality code". Let's begin by having a look at the code below:
 
 ```javascript 
 const cars = [
@@ -45,17 +45,17 @@ So what is wrong with this code? Quite a lot actually, here's a list of rules th
 1. Functions should us a maximum 1 level of nesting
 2. We should always avoid the use of the <b>let</b> keyword
 3. We should not mutate data
-4. Functions should always have doc blocks accompanying the code
-5. We should use at least one type of type checking e.g. JSDOC, Flow, TypeScript
+4. Functions should have doc blocks accompanying the code
+5. We should use some way of type checking e.g. JSDOC, Flow, TypeScript
 6. We should always use ES6 constructs where possible (foreach instead of for)
 
 We can also say that the above example is a very bad approach because it is hard to read and reason about. The code is not easy to test
 and misses documentation. We can clearly see what the code does but we need to examine it and spend time to understand the intent of the author.
 
 This is the moment where some seasoned developers will say "But nested for loops are a perfectly valid approach" and these developers are correct as far as Javascript goes. But the thing is, we are not only javascript 
-developers but also software architects. We need to think about the future, about maintainability, testability and working in a team. 
+developers but also software engineers. We need to think about the future, about maintainability, testability and working in a team.
 
-In my career, so far, I have seen many brilliant developers produce highly technical, advanced looking futuristic code which went straight into the bin, because no one was able to work with it, change it or understand it after 2 weeks. 
+In my career, so far, I have seen many brilliant developers produce highly technical, advanced looking, futuristic code which went straight into the bin, because no one was able to work with it, change it or understand it after 2 weeks.
 
 What we strive for, is code where it is immediately clear what the intent of the author was. We strive for easily maintainable code, so that when a new requirement arrives, we can just change a small part of the code, run a test and 
 be assured that nothing breaks.
@@ -65,18 +65,18 @@ be assured that nothing breaks.
 In the first step, let's address the biggest issue of the code sample. I would even go as far as to call it a bug. As you may have guessed it is a violation of rule number 3. To be honest, I didn't see the bug until I started to rewrite the code 🙂
 
 Before we start to refactor, let's make sure we understand what the code does:
-The functionality of this function is actually extremely simple. We have an array of cars and we are prepending the word "new" to each color name the colors in the array. So 'burntRed' would become 'new burntRed' etc.
+The functionality is actually extremely simple. We have an array of cars and we are prepending the word "new" to each color name of colors in the array. So 'burntRed' would become 'new burntRed' etc.
 
 One of the first questions, which comes to mind is
 
-> What will happen, if later on, in the app I will need an array of the cars, where instead of the word "new" I would need to prepend the word "old"?
+> What will happen, if later on, in the app I will need an array of cars, where instead of the word "new" I would need to prepend the word "old"?
 
 With the current approach, we would create another nested for loop, and do the same just with a different word. If we ignore [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself), [SRP](https://en.wikipedia.org/wiki/Single_responsibility_principle) and [SOLID](https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)) principles for now and go forward with this idea, will it work?
 
 As you may have guessed, it will not work and what happens is that instead of the the word "old" we will have the word "old new ". 
-Now the only reason for that is because we changed the original Array in our first for loop. This is because in Javascript, when you assign an object to a variable, in the memory, it is just a reference to the original object you assigned.
+Now the only reason for that is because we mutated the original Array in our first for loop. This is because in Javascript, when you assign an object to a variable, in the memory, it is just a reference to the original object you assigned.
 
-I hope that you are convinced by now, that while the code sample is perfectly valid approach, it shouldn't really be part of an existing application and we can move on to optimising and refactoring it.
+I hope that you are convinced by now, that while the code sample is a perfectly valid approach, it shouldn't really be part of an existing application and we can move on to optimising and refactoring it.
 
 ### Addressing rules 2, 3, 6 with a rewrite approach
 
@@ -154,14 +154,14 @@ const updateCarColor = (updateFn) => (car) => (...);
 ```
 We follow the same functional reasoning as before. We created a curried function for two reasons:
 
-1. We want to create partially applied functions
+1. We want to create composable functions
 2. We want to be able to pass the function into map
 
 Here are our partially applied functions, which will work with our cars loop:
 
 ```javascript 
 const prependText = updateCarColor(prependTextFn);
-const prependText = updateCarColor(prependTextFn);
+const appendText = updateCarColor(appendTextFn);
 ```
 
 This is the point where we need to stop and think a little 'YAGNI'. We need to think about the level of abstraction we want. 
@@ -171,7 +171,7 @@ reuse the existing functions.
 
 > YAGNI - You aren't gonna need it
 
-Let's return back to our intents here for a second. We are supposed to be able to prepend or prepend any kind of text and that should do for now. Since we have broken down our initial solution to small, reusable and replaceable functions, we can very 
+Let's return back to our intents here for a second. We are supposed to be able to prepend or append any kind of text and that should do for now. Since we have broken down our initial solution to small, reusable and replaceable functions, we can very
 easily create a different solution, if the need arises and just refactor and replace what we have so far without worrying 
 much about breaking the code.
 
@@ -201,7 +201,7 @@ import {
 getUpdatedCars(carsData, prependNewToColor);
 ```
 
-We abstracted all the functions to a utils file and use only what we need. It is clear what the function does, although we could work on the naming :) , our solution is declarative and reusable. It is easy to test, easy to change, easy to extend. All the functions we created so far are following SRP, they have only one responsibility, they do only one thing. We can easily combine them though and compose more complex solutions. 
+We abstracted all the functions to a utils file and use only what we need. It is clear what the function does, although we could work on the naming :) , our solution is declarative and reusable. It is easy to test, easy to change, easy to extend. All the functions we created so far are following SRP, they have only one responsibility, they do only one thing. We can easily combine them and compose more complex solutions.
 
 All of the functions are pure and writing a test is just saying this goes in and I expect that coming out.
 
@@ -234,7 +234,7 @@ different structure than we just defined.
 The advantage of using flow here is, that we have a chance to be notified about defects by the flow server.
 Of course, test coverage will also be helpful in detecting edge cases we forgot to cover.
 
-By deploying this solution, we are introducing a random hard to track error every time our API returns cars without 
+By releasing this solution, we are introducing a random hard to track error every time our API returns cars without
 colors and causes a really unpleasant experience for our customers.
 
 Thanks to our refactoring, there is only 2 places where our application can break, so let's fix them:
@@ -280,7 +280,7 @@ export const getUpdatedCars: GetUpdatedCars = (cars, updateCarFn: UpdateCarFn): 
 
 ### Conclusion
 
-What to take away from this article? Best practices have their meaning, but when people don't see the bigger picture and lack the required knowledge, they see almost no meaning in writing a good code. Writing good quality code should be a habit, I would write the nested for loops directly the way we wrote the final solution. It would take me almost the same amount of time. Writing good code is not premature optimisation and even though it can take slightly more time and following the best practice rules is sometimes a pain in the ***, it will pay off in the long term. Your code will have less bugs and even if a bug is discovered in the future, it will be easy to fix.
+What to take away from this article? Best practices have their meaning, but when people don't see the bigger picture and lack the required knowledge, they see almost no meaning in writing better code. Writing good quality code should be a habit, I would write the nested for loops directly the way we wrote the final solution. It would take me almost the same amount of time. Writing good code is not premature optimisation and even though it can take slightly more time and following the best practice rules is sometimes a pain in the ***, it will pay off in the long term. Your code will have less bugs and even if a bug is discovered in the future, it will be easy to fix.
 
 We have a GITHUB repo where we started to gather code we think can be improved, 
 it will have the final code with tests, flow types and explanations. Everyone is 
